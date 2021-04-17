@@ -7,6 +7,16 @@ fi = fungsiMethod.prosesData()
 
 #Pendeklarasian Fungsi
 
+def namaKelompok():
+    garis() 
+    print("-         KELOMPOK 12           -")
+    garis() 
+    print("1. Anugrah")
+    print("2. Fadel Rizky ")
+    print("3. Refanda Surya")
+    print("4. Ruben Rusel")
+    garis()
+
 def ulangi():
 
     pilihan = input("Apakah anda ingin melakukan proses kembali (Y/T) ? ")
@@ -58,6 +68,7 @@ def tampilMenu():
 
 
 #Pemanggilan Fungsi Utama
+namaKelompok()
 
 tampilMenu()
 
